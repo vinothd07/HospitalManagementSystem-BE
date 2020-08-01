@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "_id": 1,
+      "role_id": 1,
+      "location_id": 1,
+      "name": "Vinoth Kumar D",
+      "mobile": "8667412348",
+      "email": "vinothkumar@gmail.com",
+      "username": "vinoth",
+      "password": "vinoth",
+      "created_at": "2020-08-01 11:20:32"
+    },
+    {
+      "_id": 2,
+      "role_id": 2,
+      "location_id": 1,
+      "name": "Vijaya Kumar S",
+      "mobile": "8541236565",
+      "email": "vijaykumar@gmail.com",
+      "username": "vijay",
+      "password": "vijay",
+      "created_at": "2020-08-01 11:20:32"
+    },
+    {
+      "_id": 3,
+      "role_id": 1,
+      "location_id": 1,
+      "name": "Raj Kumar R",
+      "mobile": "8667412341",
+      "email": "rajkumar@gmail.com",
+      "username": "raj",
+      "password": "raj",
+      "created_at": "2020-08-01 11:20:32"
+    },
+    {
+      "_id": 4,
+      "role_id": 1,
+      "location_id": 2,
+      "name": "Ashok Kumar S",
+      "mobile": "8541236515",
+      "email": "ashokkumar@gmail.com",
+      "username": "ashok",
+      "password": "ashok",
+      "created_at": "2020-08-01 11:20:32"
+    }
+  ],
+  "roles": [
+    {
+      "_id": 1,
+      "role": "doctor",
+      "created_at": "2020-08-01 11:20:32"
+    },
+    {
+      "_id": 2,
+      "role": "patient",
+      "created_at": "2020-08-01 11:20:32"
+    }
+  ],
+  "locations": [
+    {
+      "_id": 1,
+      "location": "Mettur dam, salem",
+      "lat": "11.791850",
+      "long": "77.798462",
+      "created_at": "2020-08-01 11:20:32"
+    },
+    {
+      "_id": 2,
+      "location": "Salem, Tamilnadu",
+      "lat": "11.652120",
+      "long": "78.157980",
+      "created_at": "2020-08-01 11:20:32"
+    }
+  ],
+  "appointments": [
+    {
+      "_id": 1,
+      "patient_id": 2,
+      "doctor_id": 4,
+      "location_id": 2,
+      "date": "2020-01-03",
+      "time": "10:00:00",
+      "status": "a",
+      "created_at": "2020-01-01 13:10:56"
+    },
+    {
+      "_id": 2,
+      "patient_id": 2,
+      "doctor_id": 1,
+      "location_id": 1,
+      "date": "2020-01-05",
+      "time": "10:00:00",
+      "status": "a",
+      "created_at": "2020-01-04 10:10:56"
+    },
+    {
+      "_id": 3,
+      "patient_id": 2,
+      "doctor_id": 1,
+      "location_id": 1,
+      "date": "2020-01-07",
+      "time": "10:00:00",
+      "status": "c",
+      "created_at": "2020-01-05 11:10:56"
+    },
+    {
+      "_id": 4,
+      "patient_id": 2,
+      "doctor_id": 4,
+      "location_id": 2,
+      "date": "2020-08-10",
+      "time": "16:00:00",
+      "status": "r",
+      "created_at": "2020-07-28T17:05:56.827Z"
+    },
+    {
+      "_id": 5,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "location_id": 1,
+      "date": "2020-08-13",
+      "time": "1:05 PM",
+      "status": "r",
+      "created_at": "2020-07-30T09:14:31.067Z"
+    },
+    {
+      "_id": 6,
+      "patient_id": 2,
+      "doctor_id": 4,
+      "location_id": 2,
+      "date": "2020-08-13",
+      "time": "12:00 PM",
+      "status": "p",
+      "created_at": "2020-07-30T09:17:28.853Z"
+    },
+    {
+      "_id": 7,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "location_id": 1,
+      "date": "2020-08-20",
+      "time": "12:00 PM",
+      "status": "a",
+      "created_at": "2020-07-30T09:19:07.930Z"
+    },
+    {
+      "_id": 8,
+      "patient_id": 2,
+      "doctor_id": 1,
+      "location_id": 1,
+      "date": "2020-07-30",
+      "time": "1:00 PM",
+      "status": "a",
+      "created_at": "2020-07-30T09:22:58.934Z"
+    },
+    {
+      "_id": 9,
+      "patient_id": 2,
+      "doctor_id": 3,
+      "location_id": 1,
+      "date": "2020-08-11",
+      "time": "1:05 PM",
+      "status": "p",
+      "created_at": "2020-08-01T08:20:12.833Z"
+    }
+  ]
+}
